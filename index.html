@@ -5,7 +5,8 @@
       src="https://kit.fontawesome.com/c00ad845f8.js"
       crossorigin="anonymous"
     ></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
    
 
     <!-- Required meta tags -->
@@ -27,6 +28,9 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--     
     font-awesome
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
@@ -37,7 +41,10 @@
     <title>Or Photos</title>
   </head>
   
-  <body  onload="$('#rootDiv').show(); $('.loadingRow').hide(); ">
+  <body  onload="$('#rootDiv').show(); $('.loadingRow').hide();
+  AOS.init({
+    duration: 1200,
+  })">
 
     <div class="row loadingRow">
       <div class="col-12">
@@ -75,7 +82,7 @@
       </div>
     </nav>
 
-    <div class="row rowProfile" >
+    <div class="row rowProfile" data-aos="zoom-in">
       <div class="col-md-1 col-lg-2"></div>
       <div class="col-md-10 col-lg-8">
         <div class="profile-img">
@@ -105,8 +112,8 @@
       </div>
     </section>
 
-    <section class="container-fluid px-0" id="homeSection">
-      <div class="row align-items-center text-center">
+    <section class="container-fluid px-0" id="homeSection" data-aos="fade-left">
+      <div class="row align-items-center text-center" >
         <div class="col-sm-6 p-0 order-2">
           <img src="images/orphoto_1.png" alt="" class="img-fluid" />
         </div>
@@ -129,7 +136,7 @@
       </div>
     </section>
 
-    <section class="container-fluid px-0" id="gallerySection">
+    <section class="container-fluid px-0" id="gallerySection" data-aos="fade-right">
         <div class="row align-items-center text-center">
           <div class="col-sm-6 p-0 ">
           <div class="row justify-content-center p-4 py-sm-0">
@@ -153,7 +160,7 @@
         </div>
       </section>
 
-      <section class="container-fluid px-0" id="aboutSection">
+      <section class="container-fluid px-0" id="aboutSection" data-aos="flip-right">
         <div class="row align-items-center text-center">
           <div class="col-sm-6 p-0 order-2">
             <img src="images/orphoto_3.png" alt="" class="img-fluid" />
@@ -201,6 +208,8 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+
+
 
     <script>
         $(function () {
