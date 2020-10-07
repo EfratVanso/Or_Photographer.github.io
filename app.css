@@ -8,7 +8,12 @@ body{
     background: #92c7f0;
     font-family: 'Nunito', sans-serif;
 }
-
+html, body {
+    overflow-x: hidden;
+  }
+ body {
+    width:100%;
+  }
 p{
     font-size: 1rem; 
     font-family: system-ui;
