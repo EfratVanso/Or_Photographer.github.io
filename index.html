@@ -36,8 +36,16 @@
 
     <title>Or Photos</title>
   </head>
+  
+  <body  onload="$('#rootDiv').show();  ">
 
-  <body style="display: none;" onload="      $('body').show(); alert('enjoy');">
+    <div class="row loadingRow">
+      <div class="col-12">
+        <h3>  loading... please wait <i class="fas fa-spinner"></i></h3>
+      </div>
+    </div>
+
+    <div style="display: none;" id="rootDiv">
     <nav
       id="mainNavbar"
       class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
@@ -198,5 +206,6 @@
             });
         });
     </script>
+    </div>
   </body>
 </html>
