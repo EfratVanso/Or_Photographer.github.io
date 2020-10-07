@@ -76,6 +76,13 @@ p{
 li{
     text-shadow: -1px -1px 1px #6699ff, 2px 2px 7px #363636;
 }
+.footer {
+    position: sticky;
+    left: 0;
+    width: 100%;
+    color: #4f6a88;
+    text-align: center;
+ }
 @media(min-width:768px){
 .navbar.scrolled{
     background:#6699ff;
