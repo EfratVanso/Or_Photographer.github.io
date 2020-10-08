@@ -42,8 +42,8 @@ My Site: https://efratvanso.github.io/
 
 ## Screenshots
 
-<img style="-webkit-user-select: none;margin: auto;width: 700px;" src="">
+<img style="-webkit-user-select: none;margin: auto;width: 550px;" src="https://raw.githubusercontent.com/EfratVanso/Or_Photographer.github.io/master/ResponsitiveSite.png" width="600">
 
-<br/><br/>
+**Running Example**
 
-<img style="-webkit-user-select: none;margin: auto;width: 700px;" src="">
+<img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://github.com/EfratVanso/Or_Photographer.github.io/blob/master/photographer%20GIF.gif?raw=true">
